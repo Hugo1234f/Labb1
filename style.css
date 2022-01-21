@@ -4,13 +4,14 @@
     padding: 0;
     overflow: hidden;
     width: 100%;
+    align-self: center;
 }
 
 li {
     float: left;
     list-style-type: none;
     border-right: 1px solid white;
-    width: 33%;
+    width: 33%
 }
 
 li a {
