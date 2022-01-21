@@ -5,6 +5,7 @@
     overflow: hidden;
     width: 100%;
     align-self: center;
+    background-color: #333;
 }
 
 li {
