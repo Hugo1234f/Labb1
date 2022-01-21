@@ -8,6 +8,10 @@
     background-color: #333;
 }
 
+body {
+    background-color: #FAEBD7;
+}
+
 li {
     float: left;
     list-style-type: none;
@@ -36,9 +40,13 @@ li a {
 
 #fot {
     text-align: center;
-    padding: 2px;
+    padding:  1px;
+    margin-left: 35%;
+    margin-right: 35%;
     border: 2px; color: black;
-    background-color: DarkSalmon;
-    color: white;
+    background-color: #dddddd;
+    color: black;
+    font-size: 8;
+    height: 75px;
 
 }
