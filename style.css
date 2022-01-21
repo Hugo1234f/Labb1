@@ -10,7 +10,7 @@ li {
     float: left;
     list-style-type: none;
     border-right: 1px solid white;
-    width: 33%
+    width: 33%;
 }
 
 li a {
@@ -21,4 +21,12 @@ li a {
     background-color: black;
     color:white;
     
+}
+
+#peepo {
+    width: 960px;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 20px;
+    margin-left: 30%;
 }
