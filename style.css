@@ -4,13 +4,15 @@
     padding: 0;
     overflow: hidden;
     width: 100%;
+    align-self: center;
+    background-color: #333;
 }
 
 li {
     float: left;
     list-style-type: none;
     border-right: 1px solid white;
-    width: 33%;
+    width: 33%
 }
 
 li a {
@@ -28,5 +30,15 @@ li a {
     padding: 20px;
     border: 2px solid black;
     margin: 20px;
+
     margin-left: 22%;
+}
+
+#fot {
+    text-align: center;
+    padding: 2px;
+    border: 2px; color: black;
+    background-color: DarkSalmon;
+    color: white;
+
 }
