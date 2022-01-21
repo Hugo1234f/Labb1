@@ -30,3 +30,11 @@ li a {
     margin: 20px;
     margin-left: 30%;
 }
+
+#fot {
+    text-align: center;
+    padding: 2px;
+    border: 2px; color: black;
+    background-color: DarkSalmon;
+    color: white;
+}
