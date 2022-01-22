@@ -8,6 +8,11 @@
     background-color: #333;
 }
 
+#logo {
+    padding-left: 5px;
+    margin-right: 90%;
+}
+
 body {
     background-color: #FAEBD7;
 }
@@ -47,6 +52,6 @@ li a {
     background-color: #dddddd;
     color: black;
     font-size: 8;
-    height: 75px;
+    height: 10%;
 
 }
