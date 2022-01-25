@@ -65,8 +65,18 @@ li a {
     right: 2%;
 }
 
+#home_aside_1 a img {
+    width: 150px;
+    height: 300px;
+}
+
 #home_aside_2 {
     margin-top: 250px;
     position: absolute;
     right: 2%;
+}
+
+#home_aside_2 a img {
+    width: 150px;
+    height: 300px;
 }
