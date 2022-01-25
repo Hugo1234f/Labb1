@@ -80,3 +80,12 @@ li a {
     width: 150px;
     height: 300px;
 }
+
+#main_show {
+    margin-left: 10%;
+    width: 80%;
+}
+
+#sideShow {
+    width: 30%;
+}
