@@ -43,6 +43,25 @@ li a {
     margin-left: 22%;
 }
 
+.article {
+    width: 30%;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.stoneRow {
+    display: flex;
+}
+
+main {
+    
+}
+
+.peepo img {
+    width: 100%;
+}
+
 /*
 * FOOTER
 * TODO: Make it stay at the bottom
