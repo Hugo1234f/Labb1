@@ -34,14 +34,7 @@ li a {
     
 }
 
-#peepo {
-    width: 960px;
-    padding: 20px;
-    border: 2px solid black;
-    margin: 20px;
 
-    margin-left: 22%;
-}
 
 .article {
     width: 30%;
@@ -54,12 +47,23 @@ li a {
     display: flex;
 }
 
-main {
-    
+iframe {
+    padding-left: 25%;
+    width: 50%;
+    height: 500px;
 }
 
-.peepo img {
+.bild img {
     width: 100%;
+}
+
+#peepo {
+    width: 960px;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 20px;
+
+    margin-left: 11%
 }
 
 /*
