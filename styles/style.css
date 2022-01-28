@@ -111,9 +111,12 @@ iframe {
 
 #main_show {
     font-size: large;
-    width:20%;
     margin-left:40%;
+}
 
+.center_text2 {
+    font-size: large;
+    width:20%;
 }
 
 .center_text {
