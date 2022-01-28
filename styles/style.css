@@ -127,8 +127,7 @@ iframe {
 
 .center_text3 {
     font-size: large;
-    width:20%;
-    margin-left:40%;
+    text-align: center;
     padding-bottom: 20px;
 }
 
@@ -147,12 +146,10 @@ li a:hover {
 }
 
 .obstext{
-    margin-left: 32%;
     text-align: center;
     font-weight:bold;
-    width: 38%;
 }
 
 .centrerar{
-    margin-left: 45%;
+    text-align: center;
 }
