@@ -115,3 +115,9 @@ iframe {
 
 }
 
+.center_text {
+    font-size: large;
+    width:20%;
+    margin-left:40%;
+}
+
