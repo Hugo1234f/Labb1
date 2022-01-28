@@ -125,6 +125,13 @@ iframe {
     margin-left:40%;
 }
 
+.center_text3 {
+    font-size: large;
+    width:20%;
+    margin-left:40%;
+    padding-bottom: 20px;
+}
+
 li a:hover {
     background-color: gray;
 }
@@ -133,10 +140,19 @@ li a:hover {
     padding: 2px;
     border: 2px solid black;
     width:fit-content;
-    margin-left: 5%;
+    margin-left: 41%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     background-color: lightgoldenrodyellow;
 }
 
 .obstext{
+    margin-left: 32%;
     text-align: center;
+    font-weight:bold;
+    width: 38%;
+}
+
+.centrerar{
+    margin-left: 45%;
 }
