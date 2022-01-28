@@ -47,9 +47,26 @@ li a {
     margin: 20px;
 }
 
+.article2 {
+    width: 25%;
+    padding: 20px;
+    border: 2px solid black;
+}
+.article2:hover {
+    width: 25%;
+    padding: 20px;
+    border: 2px solid red;
+}
+
 .stoneRow {
     display: flex;
 }
+
+.stoneRow2 {
+    display: flex;
+    margin-left: 30%;
+}
+
 
 iframe {
     padding-left: 25%;
@@ -95,7 +112,7 @@ iframe {
 
 #home_aside_1 a img {
     width: 150px;
-    height: 300px;
+    height: 150px;
 }
 
 #home_aside_2 {
@@ -121,11 +138,35 @@ iframe {
 
 .center_text {
     font-size: large;
-    width:20%;
-    margin-left:40%;
+    width:40%;
+    margin-left:30%;
+}
+
+.center_text3 {
+    font-size: large;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 li a:hover {
     background-color: gray;
 }
 
+.formcl{
+    padding: 2px;
+    border: 2px solid black;
+    width:fit-content;
+    margin-left: 41%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: lightgoldenrodyellow;
+}
+
+.obstext{
+    text-align: center;
+    font-weight:bold;
+}
+
+.centrerar{
+    text-align: center;
+}
