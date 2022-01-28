@@ -129,3 +129,10 @@ li a:hover {
     background-color: gray;
 }
 
+.formcl{
+    padding: 2px;
+    border: 2px solid black;
+    width:fit-content;
+    margin-left: 5%;
+    background-color: lightgoldenrodyellow;
+}
