@@ -59,6 +59,7 @@ iframe {
 
 .bild img {
     width: 100%;
+    height:350px;
 }
 
 #peepo {
@@ -119,5 +120,9 @@ iframe {
     font-size: large;
     width:20%;
     margin-left:40%;
+}
+
+li a:hover {
+    background-color: gray;
 }
 
