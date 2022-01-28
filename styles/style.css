@@ -121,3 +121,7 @@ iframe {
     margin-left:40%;
 }
 
+li a:hover {
+    background-color: gray;
+}
+
