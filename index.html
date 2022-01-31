@@ -24,8 +24,57 @@
             <aside id="home_aside_1">
                 <a href="https://kau.se" target="_blank"><img src="images/kau.png" alt="kau"></a>
             </aside>
-            <aside id="home_aside_2">
-                <a href="contact.html" target="_blank"><img src="images/peepo.png" alt="Pepe 2 kau"></a>
+            <aside id="fields">
+                <form class="formcl">   
+                    <h3>
+                        Vill du ge oss feedback?</h3>
+                    <div>
+                      <label for="name_button">Ditt namn:</label><br>
+                      <input type="text" id="name_button" required>
+                    </div>
+                    <div>
+                      <label for="email_button">Din epost</label><br>
+                      <input type="email" id="email_button" required>
+                    </div>
+                    <div>
+                      <label for="text_button">Feedback</label><br>
+                      <textarea rows="15" id="text_button"></textarea>
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend>Stensystem</legend>
+                            <label>Välj Stensystem:<br>
+                                <input type="radio" name="shipping" required> Långsam sten<br>
+                                <input type="radio" name="shipping" required> Snabb sten<br>
+                                </label>
+                        </fieldset>
+                    </div>
+                    <div>
+                        <label for="textf">Något vi bör tänka på?</label>
+                        <input type="text" id="textf">
+                    </div>
+                    <div>
+                      <label for="tos_button">Godkänn kundvillkor</label>
+                      <input type="checkbox" id="tos_button" required> 
+                    </div>
+                    <div>
+                      <label for="tos_button2">Du är glad</label>
+                      <input type="checkbox" id="tos_button2"> 
+                    </div>
+                    <div>
+                      <label for="stenar">Stenar:</label><br>
+                      <select id="stenar" required>
+                        <option>Liten sten</option>
+                        <option>Mellan sten</option>
+                        <option>Stor sten</option>
+                        <option>STÖRSTA STENEN I UNIVERSUM</option>
+                      </select>
+                    </div>
+                    <div>
+                      <button type="submit">Skicka</button>
+                      <button type="reset">Rensa</button>
+                    </div>
+                </form>
             </aside>
         </side>
         <main>
