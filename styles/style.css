@@ -116,9 +116,9 @@ iframe {
 }
 
 #home_aside_2 {
-    margin-top: 250px;
+    margin-top: 150px;
     position: absolute;
-    right: 2%;
+    right: 1%;
 }
 
 #home_aside_2 a img {
@@ -169,4 +169,16 @@ li a:hover {
 
 .centrerar{
     text-align: center;
+}
+
+
+
+#radio1{
+    margin-left: 26%;
+    margin-top: 3%;
+}
+
+#mleft{
+    margin-top: 3%;
+    margin-left: 4%;
 }
