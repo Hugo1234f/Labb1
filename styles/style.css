@@ -151,18 +151,19 @@ iframe {
 }
 
 /*SETTING THE POSITION OF THE FIRST IMAGE IN INDEX.HTML*/
-#home_aside_1 {
-    position: absolute;
+#home_aside_2>a {
+    position:absolute;
     right: 2%;
 }
 
 /*SETTING THE SIZE OF THE FIRST IMAGE IN INDEX.HTML*/
-#home_aside_1 a img {
+#home_aside_2>a img {
     width: 165px;
     height: 165px;
+    margin-bottom: 100px;
 }
 
-#home_aside_2 {
+#home_aside_2>form {
     margin-top: 200px;
     position: absolute;
     right: 1%;
