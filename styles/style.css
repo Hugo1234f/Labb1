@@ -99,6 +99,10 @@ ul>li:hover>ul {
    display:block;
 }
 
+ul>li {
+    color: white;
+}
+
 .article {
     width: 30%;
     padding: 20px;
