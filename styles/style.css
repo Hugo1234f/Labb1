@@ -105,16 +105,16 @@ ul>li>a {
     overflow: hidden;
     align-self: center;
 }
-  
+
   /* Dropdown Content (Hidden by Default) */
-.dropdown-content {
+  ul>li>ul {
     display: none;
     position: absolute;
     background-color: black;
     min-width: 500px;
     z-index: 1;
 }
-  
+
   /* Links inside the dropdown */
 .dropdown-content a {
     color: rgb(255, 255, 255);
