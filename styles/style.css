@@ -131,9 +131,9 @@ iframe {
 
 /*SETTING THE POSITION OF THE SECOND IMAGE IN INDEX.HTML*/
 #home_aside_2 {
-    margin-top: 250px;
+    margin-top: 150px;
     position: absolute;
-    right: 2%;
+    right: 1%;
 }
 
 /*SETTING THE SIZE OF THE SECOND IMAGE IN INDEX.HTML*/
@@ -182,4 +182,16 @@ ADJUSTING THE WIDTH TO 'fit-content' AND CHANGING THE BACKGROUND COLOR TO 'light
 /*CENTERS THE 'Hitta till oss:' AND 'Ring oss:' H2 TAGS IN CONTACT.HTML*/
 .centrerar{
     text-align: center;
+}
+
+
+
+#radio1{
+    margin-left: 26%;
+    margin-top: 3%;
+}
+
+#mleft{
+    margin-top: 3%;
+    margin-left: 4%;
 }
