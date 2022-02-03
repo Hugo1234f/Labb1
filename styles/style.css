@@ -36,25 +36,20 @@ ul {
     /* padding-right: 1rem; */
 }
 
-ul > li {
+ul>li {
     border: 5px yellow;
     border-style: solid;
-}
-
-/*SETS EVERY HYPERLINK TAG THAT IS IN ITSELF INSIDE A HEADER CELL TAG TO DISPLAY A BLOCK, WITH CENTERED TEXT, 
-* WITH 14 PIXELS TOP/BOT, AND 16 PIXELS LEFT/RIGHT, IT ALSO SETS THE TEXT DECORATION TP NONE, GIVES THE BOX A
-*BLACK COLOR, AND A WHITE TEXT COLOR. */
-ul a {  
-    /* display: flex; */
     text-align: center;
     padding: 20px 20px;
     text-decoration: none;
     background-color: black;
     margin-right: 10px;
-    
-    /* width: 33%; */
-    color:yellow;
 }
+
+/*SETS EVERY HYPERLINK TAG THAT IS IN ITSELF INSIDE A HEADER CELL TAG TO DISPLAY A BLOCK, WITH CENTERED TEXT, 
+* WITH 14 PIXELS TOP/BOT, AND 16 PIXELS LEFT/RIGHT, IT ALSO SETS THE TEXT DECORATION TP NONE, GIVES THE BOX A
+*BLACK COLOR, AND A WHITE TEXT COLOR. */
+
 /* 
 #menu1 {
     float: left;
