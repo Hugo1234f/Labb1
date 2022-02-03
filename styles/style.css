@@ -1,13 +1,46 @@
-/*REFORMATING THE TABLE "MENU" IN EVERY .HTML FILE TO LOOK LIKE A PROPPER MENU, AND NOT A TABLE.
-THIS IS DONE BY REMOVING THE '•' SYMBOL, SETTING THE MARGIN AND PADDING TO 0. SETTING THE OVERFLOW TO 'hidden',
-EXTENDING THE LIST TO 100% OF THE PAGE, CENTERING IT, AND SETTING ITS BACKGRONUD COLOR TO #333*/
-.menu {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+/*-------------------GENERIC----------------*/
+
+/*SETS THE WIDTH AND HEIGHT OF THE ROCK LISTINGS IN LISTINGS.HTML TO 100% AND 350 PIXELS RESPECTIVLLY*/
+.bild img {
     width: 100%;
-    align-self: center;
+    height:350px;
+}
+
+/*SETS THE PAGE BACKGROUND COLOR TO #FARBD7 IN EVERY .HTML FILE*/
+body {
+    background-color: #FAEBD7;
+}
+
+/*CENTERS AND INCREASES THE SIZE OF THE INTRODUCTION TEXT IN INDEX.HTML*/
+.center_text {
+    font-size: large;
+    width:40%;
+    margin-left:30%;
+}
+
+/*
+* SETS THE FOOTER TAG IN EACH .HTML FILE TO HAVE CENTERED TEXT, A BLACK BORDER, A #dddddd BACKGROUND COLOR,
+* A BLACK TEXT COLOR, A 16 PIXEL FONT SIZE, A LEFT AND RIGHT MARGIN OF 35%, A 1 PIXEL PADDING, A HEIGHT OF
+* 10%, A 2 PIXELS BORDER, AND A TOP MARGIN OF 200 PIXELS.
+*/
+#fot { 
+    text-align: center;
+    padding:  1px;
+    margin-left: 35%;
+    margin-right: 35%;
+    border: 2px; color: black;
+    background-color: #dddddd;
+    color: black;
+    font-size: 16px;
+    height: 10%;
+    margin-top: 200px;
+}
+
+/*SETS THE LEFT PADDING, WIDTH, AND HEIGHT OF THE GOOGLE MAPS MAP TO 25%, 50% AND 500 PIXELS RESPECTIVLLY*/
+iframe {
+    padding-left: 25%;
+    width: 50%;
+    height: 500px;
 }
 
 /*SETS THE LEFT PADDING, AND RIGHT MARGIN OF THE COMPANY LOGO IN EVERY .HTML FILE*/
@@ -21,9 +54,22 @@ EXTENDING THE LIST TO 100% OF THE PAGE, CENTERING IT, AND SETTING ITS BACKGRONUD
     width: 100px;
 }
 
-/*SETS THE PAGE BACKGROUND COLOR TO #FARBD7 IN EVERY .HTML FILE*/
-body {
-    background-color: #FAEBD7;
+/*REFORMATING THE TABLE "MENU" IN EVERY .HTML FILE TO LOOK LIKE A PROPPER MENU, AND NOT A TABLE.
+THIS IS DONE BY REMOVING THE '•' SYMBOL, SETTING THE MARGIN AND PADDING TO 0. SETTING THE OVERFLOW TO 'hidden',
+EXTENDING THE LIST TO 100% OF THE PAGE, CENTERING IT, AND SETTING ITS BACKGRONUD COLOR TO #333*/
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    align-self: center;
+}
+
+/*CENTERS THE INFO TEXT IN CONTACT.HTML AND LISTINGS.HTML AND MAKES IT BOLD*/
+.obstext{
+    text-align: center;
+    font-weight:bold;
 }
 
 /*SETS THE HEADER CELLS TO FLOAT LEFT, NOT HAVE THE '•' SYMBOL, HAVE A WHITE OUTLINE, AND A WIDTH OF 33%*/
@@ -46,11 +92,7 @@ ul>li {
     text-decoration: none;
     background-color: navy;
     margin-right: 10px;
-}
-
-/* STYLES LISTS WHEN HOVERING OVER THE MENU */
-ul>li:hover {
-    background-color: dimgray;
+    color: white;
 }
 
 /* STYLES THE LINKS OR A TAGS */
@@ -60,13 +102,9 @@ ul>li>a {
     position: relative;
 }
 
-/* STYLES SECOND UL TAG */
-ul>li>ul {
-    display: none;
-    position: absolute;
-    background-color: navy;
-    min-width: 200px;
-    border-radius: 10px;
+/* STYLES LISTS WHEN HOVERING OVER THE MENU */
+ul>li:hover {
+    background-color: dimgray;
 }
 
 /* STYLES KONTAKTA OSS DROPDOWN BOXES UPON HOVERING OVER ITEMS */
@@ -78,10 +116,44 @@ ul>li:hover>ul {
     width: 100px;
 }
 
-/* STYLES TEXT COLOR INSIDE DROPDOWN MENU */
-ul>li {
-    color: white;
+/* STYLES SECOND UL TAG */
+ul>li>ul {
+    display: none;
+    position: absolute;
+    background-color: navy;
+    min-width: 200px;
+    border-radius: 10px;
 }
+
+/*---------------------------------------------------------------------*/
+/*----------------------------------CONTACT.HTML-----------------------*/
+
+/*CENTERS AND INCREASES THE SIZE OF THE PHONE INFORMATION IN CONTACT.HTML */
+.center_text3 {
+    font-size: large;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/*CENTERS THE 'Hitta till oss:' AND 'Ring oss:' H2 TAGS IN CONTACT.HTML*/
+.centrerar{
+    text-align: center;
+}
+
+/*SETS THE PROPERTIES OF THE FEEDBACK FORM IN CONTACT.HTML, BY ADD PADDING AND MARGINS, ADDING A BLACK BORDER,
+ADJUSTING THE WIDTH TO 'fit-content' AND CHANGING THE BACKGROUND COLOR TO 'lightgoldenrodyellow' */
+.formcl{
+    padding: 2px;
+    border: 2px solid black;
+    width:fit-content;
+    margin-left: 40%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: lightgoldenrodyellow;
+}
+
+/*---------------------------------------------------------------------*/
+/*----------------------------------LISTINGS.HTML----------------------*/
 
 .article {
     width: 30%;
@@ -89,6 +161,14 @@ ul>li {
     border: 2px solid black;
     margin: 20px;
 }
+
+/*SETS THE ROCK LISTINGS IN LISTINGS.HTML TO DISPLAY AS A FLEXBOX*/
+.stoneRow {
+    display: flex;
+}
+
+/*---------------------------------------------------------------------*/
+/*----------------------------------INDEX.HTML-------------------------*/
 
 /*SETS THE WIDTH OF ROCK LISTINGS IN INDEX.HTML TO 25% OF THE PAGE, THE PADDING TO 20 PIXELS, AND GIVES THEM A 
 *BLACK BORDER
@@ -108,46 +188,16 @@ ul>li {
     border: 2px solid red;
 }
 
-/*SETS THE ROCK LISTINGS IN LISTINGS.HTML TO DISPLAY AS A FLEXBOX*/
-.stoneRow {
-    display: flex;
-}
-
-/*SETS THE ROCK LISTINGS IN INDEX.HTML TO DISPLAY AS A FLXBOX, AND GIVES THE LISTINGS A 30% LEFT MARGIN*/
-.stoneRow2 {
-    display: flex;
-    margin-left: 30%;
-}
-
-/*SETS THE LEFT PADDING, WIDTH, AND HEIGHT OF THE GOOGLE MAPS MAP TO 25%, 50% AND 500 PIXELS RESPECTIVLLY*/
-iframe {
-    padding-left: 25%;
-    width: 50%;
-    height: 500px;
-}
-
-/*SETS THE WIDTH AND HEIGHT OF THE ROCK LISTINGS IN LISTINGS.HTML TO 100% AND 350 PIXELS RESPECTIVLLY*/
-.bild img {
-    width: 100%;
-    height:350px;
-}
-
-/*
-* SETS THE FOOTER TAG IN EACH .HTML FILE TO HAVE CENTERED TEXT, A BLACK BORDER, A #dddddd BACKGROUND COLOR,
-* A BLACK TEXT COLOR, A 16 PIXEL FONT SIZE, A LEFT AND RIGHT MARGIN OF 35%, A 1 PIXEL PADDING, A HEIGHT OF
-* 10%, A 2 PIXELS BORDER, AND A TOP MARGIN OF 200 PIXELS.
-*/
-#fot { 
-    text-align: center;
-    padding:  1px;
-    margin-left: 35%;
-    margin-right: 35%;
-    border: 2px; color: black;
-    background-color: #dddddd;
-    color: black;
-    font-size: 16px;
-    height: 10%;
-    margin-top: 200px;
+/*SETS THE PROPERTIES OF THE FEEDBACK FORM IN INDEX.HTML, BY ADD PADDING AND MARGINS, ADDING A BLACK BORDER,
+ADJUSTING THE WIDTH TO 'fit-content' AND CHANGING THE BACKGROUND COLOR TO 'lightgoldenrodyellow' */
+.formcl2{
+    padding: 2px;
+    border: 2px solid black;
+    width:fit-content;
+    margin-left: 90%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: lightgoldenrodyellow;
 }
 
 /*SETTING THE POSITION OF THE FIRST IMAGE IN INDEX.HTML*/
@@ -169,64 +219,24 @@ iframe {
     right: 1%;
 }
 
-#fields {
-    position:absolute;
-    right: 13%;
-    margin-top: 10%;
-    width: 10px;
-    text-align: center; 
+.mleft{
+    margin-top: 3%;
+    margin-left: 4%;
 }
-
-/*CENTERS AND INCREASES THE SIZE OF THE INTRODUCTION TEXT IN INDEX.HTML*/
-.center_text {
-    font-size: large;
-    width:40%;
-    margin-left:30%;
-}
-
-/*CENTERS AND INCREASES THE SIZE OF THE PHONE INFORMATION IN CONTACT.HTML */
-.center_text3 {
-    font-size: large;
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-/*CHANGES THE BACKGROUND COLOR OF THE MENU BUTTONS TO GRAY WHEN THE USER HOVERS OVER THEM WITH THEIR MOUSE*/
-th a:hover {
-    background-color: gray;
-}
-
-/*SETS THE PROPERTIES OF THE FEEDBACK FORM IN CONTACT.HTML, BY ADD PADDING AND MARGINS, ADDING A BLACK BORDER,
-ADJUSTING THE WIDTH TO 'fit-content' AND CHANGING THE BACKGROUND COLOR TO 'lightgoldenrodyellow' */
-.formcl{
-    padding: 2px;
-    border: 2px solid black;
-    width:fit-content;
-    margin-left: 90%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    background-color: lightgoldenrodyellow;
-}
-
-/*CENTERS THE INFO TEXT IN CONTACT.HTML AND LISTINGS.HTML AND MAKES IT BOLD*/
-.obstext{
-    text-align: center;
-    font-weight:bold;
-}
-
-/*CENTERS THE 'Hitta till oss:' AND 'Ring oss:' H2 TAGS IN CONTACT.HTML*/
-.centrerar{
-    text-align: center;
-}
-
- 
 
 .radio1{
     margin-left: 26%;
     margin-top: 3%;
 }
 
-.mleft{
-    margin-top: 3%;
-    margin-left: 4%;
+/*SETS THE ROCK LISTINGS IN INDEX.HTML TO DISPLAY AS A FLXBOX, AND GIVES THE LISTINGS A 30% LEFT MARGIN*/
+.stoneRow2 {
+    display: flex;
+    margin-left: 30%;
 }
+
+/*---------------------------------------------------------------*/
+
+
+
+
