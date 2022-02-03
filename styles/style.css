@@ -258,14 +258,14 @@ ADJUSTING THE WIDTH TO 'fit-content' AND CHANGING THE BACKGROUND COLOR TO 'light
     text-align: center;
 }
 
+ 
 
-
-#radio1{
+.radio1{
     margin-left: 26%;
     margin-top: 3%;
 }
 
-#mleft{
+.mleft{
     margin-top: 3%;
     margin-left: 4%;
 }
