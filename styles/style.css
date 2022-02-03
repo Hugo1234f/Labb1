@@ -1,7 +1,7 @@
 /*REFORMATING THE TABLE "MENU" IN EVERY .HTML FILE TO LOOK LIKE A PROPPER MENU, AND NOT A TABLE.
 THIS IS DONE BY REMOVING THE '•' SYMBOL, SETTING THE MARGIN AND PADDING TO 0. SETTING THE OVERFLOW TO 'hidden',
 EXTENDING THE LIST TO 100% OF THE PAGE, CENTERING IT, AND SETTING ITS BACKGRONUD COLOR TO #333*/
-#menu {
+.menu {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -27,25 +27,27 @@ body {
 }
 
 /*SETS THE HEADER CELLS TO FLOAT LEFT, NOT HAVE THE '•' SYMBOL, HAVE A WHITE OUTLINE, AND A WIDTH OF 33%*/
-#th {
-    float: left;
+ul {
+    display: flex;
     list-style-type: none;
     border-right: 1px solid white;
-    width: 33%;
+    /* padding-right: 1rem; */
 }
 
 /*SETS EVERY HYPERLINK TAG THAT IS IN ITSELF INSIDE A HEADER CELL TAG TO DISPLAY A BLOCK, WITH CENTERED TEXT, 
 * WITH 14 PIXELS TOP/BOT, AND 16 PIXELS LEFT/RIGHT, IT ALSO SETS THE TEXT DECORATION TP NONE, GIVES THE BOX A
 *BLACK COLOR, AND A WHITE TEXT COLOR. */
-#th a {  
-    display: block;
+ul a {  
+    /* display: flex; */
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     background-color: black;
+    
+    width: 33%;
     color:white;
 }
-
+/* 
 #menu1 {
     float: left;
     list-style-type: none;
@@ -72,7 +74,7 @@ body {
     text-decoration: none;
     background-color: black;
     color:white;
-}
+} */
 
 /* mitt skit */
   
