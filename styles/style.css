@@ -30,15 +30,15 @@ body {
 ul {
     display: flex;
     list-style-type: none;
-    padding: 14px 16px;
-    width: 33%;
+    /* padding: 14px 16px; */
+    width: 33%; 
     /* margin-right: 10%; */
     /* padding-right: 1rem; */
 }
 
-ul.li {
+ul > li {
+    border: 5px yellow;
     border-style: solid;
-    border: red;
 }
 
 /*SETS EVERY HYPERLINK TAG THAT IS IN ITSELF INSIDE A HEADER CELL TAG TO DISPLAY A BLOCK, WITH CENTERED TEXT, 
@@ -47,13 +47,13 @@ ul.li {
 ul a {  
     /* display: flex; */
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 20px;
     text-decoration: none;
     background-color: black;
-    margin-right: 4px;
+    margin-right: 10px;
     
-    width: 33%;
-    color:white;
+    /* width: 33%; */
+    color:yellow;
 }
 /* 
 #menu1 {
@@ -212,7 +212,7 @@ iframe {
 }
 
 #home_aside_2 {
-    margin-top: 150px;
+    margin-top: 200px;
     position: absolute;
     right: 1%;
 }
