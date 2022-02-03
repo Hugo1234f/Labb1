@@ -46,6 +46,10 @@ ul>li {
     margin-right: 10px;
 }
 
+ul>li:hover {
+    background-color: dimgray;
+}
+
 ul>li>a {
     color:white;
     text-decoration: none;
