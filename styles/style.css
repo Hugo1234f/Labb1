@@ -36,6 +36,7 @@ ul {
     /* padding-right: 1rem; */
 }
 
+/* STYLES LISTS UNDER UL */
 ul>li {
     border: 5px yellow;
     border-style: solid;
@@ -46,59 +47,36 @@ ul>li {
     margin-right: 10px;
 }
 
+/* STYLES LISTS WHEN HOVERING OVER THE MENU */
 ul>li:hover {
     background-color: dimgray;
 }
 
+/* STYLES THE LINKS OR A TAGS */
 ul>li>a {
     color:white;
     text-decoration: none;
+    position: relative;
 }
 
-/*SETS EVERY HYPERLINK TAG THAT IS IN ITSELF INSIDE A HEADER CELL TAG TO DISPLAY A BLOCK, WITH CENTERED TEXT, 
-* WITH 14 PIXELS TOP/BOT, AND 16 PIXELS LEFT/RIGHT, IT ALSO SETS THE TEXT DECORATION TP NONE, GIVES THE BOX A
-*BLACK COLOR, AND A WHITE TEXT COLOR. */
- 
-/* 
-#menu1 {
-    float: left;
-    list-style-type: none;
-    border-right: 1px solid white;
-    width: 33%;
-
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: black;
-    color:white;
-}
-
-#menu2 {
-    float: left;
-    list-style-type: none;
-    border-right: 1px solid white;
-    width: 33%;
-    
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: black;
-    color:white;
-} */
-
-
-  ul>li>ul {
+/* STYLES SECOND UL TAG */
+ul>li>ul {
     display: none;
     position: absolute;
     background-color: black;
-    min-width: 500px;
-}
-ul>li:hover>ul {
-   display:block;
+    min-width: 200px;
 }
 
+/* STYLES KONTAKTA OSS DROPDOWN BOXES UPON HOVERING OVER ITEMS */
+ul>li:hover>ul {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+}
+
+/* STYLES TEXT COLOR INSIDE DROPDOWN MENU */
 ul>li {
     color: white;
 }
