@@ -201,6 +201,13 @@ iframe {
     height: 165px;
 }
 
+#home_aside_2 {
+    margin-top: 150px;
+    position: absolute;
+    right: 1%;
+}
+
+
 #fields {
     position:absolute;
     right: 13%;
