@@ -38,12 +38,13 @@ ul {
 
 /* STYLES LISTS UNDER UL */
 ul>li {
-    border: 5px yellow;
+    border: 3px black;
     border-style: solid;
+    border-radius: 10px;
     text-align: center;
     padding: 20px 20px;
     text-decoration: none;
-    background-color: black;
+    background-color: navy;
     margin-right: 10px;
 }
 
@@ -63,8 +64,9 @@ ul>li>a {
 ul>li>ul {
     display: none;
     position: absolute;
-    background-color: black;
+    background-color: navy;
     min-width: 200px;
+    border-radius: 10px;
 }
 
 /* STYLES KONTAKTA OSS DROPDOWN BOXES UPON HOVERING OVER ITEMS */
