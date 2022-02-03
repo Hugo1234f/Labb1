@@ -1,7 +1,7 @@
 /*REFORMATING THE TABLE "MENU" IN EVERY .HTML FILE TO LOOK LIKE A PROPPER MENU, AND NOT A TABLE.
 THIS IS DONE BY REMOVING THE '•' SYMBOL, SETTING THE MARGIN AND PADDING TO 0. SETTING THE OVERFLOW TO 'hidden',
 EXTENDING THE LIST TO 100% OF THE PAGE, CENTERING IT, AND SETTING ITS BACKGRONUD COLOR TO #333*/
-#menu {
+.menu {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -27,25 +27,39 @@ body {
 }
 
 /*SETS THE HEADER CELLS TO FLOAT LEFT, NOT HAVE THE '•' SYMBOL, HAVE A WHITE OUTLINE, AND A WIDTH OF 33%*/
-#th {
-    float: left;
+ul {
+    display: flex;
     list-style-type: none;
-    border-right: 1px solid white;
-    width: 33%;
+    /* padding: 14px 16px; */
+    width: 33%; 
+    /* margin-right: 10%; */
+    /* padding-right: 1rem; */
+}
+
+ul>li {
+    border: 5px yellow;
+    border-style: solid;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    background-color: black;
+    margin-right: 10px;
+}
+
+ul>li:hover {
+    background-color: dimgray;
+}
+
+ul>li>a {
+    color:white;
+    text-decoration: none;
 }
 
 /*SETS EVERY HYPERLINK TAG THAT IS IN ITSELF INSIDE A HEADER CELL TAG TO DISPLAY A BLOCK, WITH CENTERED TEXT, 
 * WITH 14 PIXELS TOP/BOT, AND 16 PIXELS LEFT/RIGHT, IT ALSO SETS THE TEXT DECORATION TP NONE, GIVES THE BOX A
 *BLACK COLOR, AND A WHITE TEXT COLOR. */
-#th a {  
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: black;
-    color:white;
-}
-
+ 
+/* 
 #menu1 {
     float: left;
     list-style-type: none;
@@ -72,55 +86,22 @@ body {
     text-decoration: none;
     background-color: black;
     color:white;
-}
+} */
 
-/* mitt skit */
-  
-/* Dropdown Button */
-.dropbtn {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: black;
-    color:white;
-    width: 630px;  
-}
-  
-  /* The container <div> - needed to position the dropdown content */
-.dropdown {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    align-self: center;
-}
-  
-  /* Dropdown Content (Hidden by Default) */
-.dropdown-content {
+
+  ul>li>ul {
     display: none;
     position: absolute;
     background-color: black;
     min-width: 500px;
-    z-index: 1;
 }
-  
-  /* Links inside the dropdown */
-.dropdown-content a {
-    color: rgb(255, 255, 255);
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+ul>li:hover>ul {
+   display:block;
 }
 
-  /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: gray;}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: gray;}
+ul>li {
+    color: white;
+}
 
 .article {
     width: 30%;
@@ -202,7 +183,7 @@ iframe {
 }
 
 #home_aside_2 {
-    margin-top: 250px;
+    margin-top: 200px;
     position: absolute;
     right: 1%;
 }
@@ -257,14 +238,14 @@ ADJUSTING THE WIDTH TO 'fit-content' AND CHANGING THE BACKGROUND COLOR TO 'light
     text-align: center;
 }
 
+ 
 
-
-#radio1{
+.radio1{
     margin-left: 26%;
     margin-top: 3%;
 }
 
-#mleft{
+.mleft{
     margin-top: 3%;
     margin-left: 4%;
 }

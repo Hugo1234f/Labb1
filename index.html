@@ -10,35 +10,23 @@
         <!-- HOME LOGO -->
         <header class="logo">
             <!--IMAGE OF COMPANY LOGO. MADE BY THE COMPANY, INSPIRATION FROM THE LOGO OF KARLSTADS UNIVERSITY-->
-            <a href="https://www.youtube.com/watch?v=a3Z7zEc7AXQ" ><img src="images/logo.png" alt="logo"></a>
+            <a href="https://www.youtube.com/watch?v=a3Z7zEc7AXQ" target="_blank" ><img src="images/logo.png" alt="logo"></a>
             <h1>Group TväntySäven</h1>
         </header>
 
-        <div id="menu">
-            <div id="menu1">
-                <a href="index.html" id="current">Startsida</a>
-            </div>
-            <div id="menu2">
-                <a href="listings.html">Objektsida</a>
-            </div>
-        <div class="dropdown">
-            <button class="dropbtn" ><a href="contact.html">Kontakta oss</a></button>
-                <div class="dropdown-content">
-                    <a href="#">Lorem Ipsum</a>
-                    <a href="#">Lorem Ipsum</a>
-                    <a href="#">Lorem Ipsum</a>
-                </div>
-            </div>
-        </div>
+        <ul class="menu">
+            <li><a href="index.html">Startsida</a></li>
+            <li><a href="listings.html">Objektsida</a></li>
+            <li>
+                <a href="contact.html">Kontakta oss</a>
+            <ul>
+                <li>SSS</li>
+                <li>SSS</li>
+                <li>SSS</li>
+            </ul>
+            </li>
+        </ul>
 
-        <!-- <table id="menu">
-            <li><a href="index.html" id="current">Startsida</a></li>
-                <li>
-                    <li><a href="index.html">Lorem Ipsum</a></li>
-                </li>
-            <li><a href="listings.html">Objektsida</a></li>  
-            <li><a href="contact.html">Kontakta oss</a></li>
-        </table><br> -->
         <hr>
         <side id="side_show">
             <!-- ONE AD IMAGE -->
@@ -53,20 +41,20 @@
                     <h3>
                         Inget i denna ruta gör något speciellt</h3>
                     <div>
-                      <label for="name_button">Ditt namn:</label><br>
+                      <label for="name_button">Namnruta:</label><br>
                       <input type="text" id="name_button" required>
                     </div>
                     <div>
                       <label for="email_button">Circlele</label><br>
-                      <input type="radio" name="circl" id="radio0" required>
-                      <input type="radio" name="circl" id="radio1" required>
-                      <input type="radio" name="circl" id="radio1" required>
+                      <input type="radio" name="circl" class="radio0" required>
+                      <input type="radio" name="circl" class="radio1" required>
+                      <input type="radio" name="circl" class="radio1" required>
                     </div>
                     <div>
                         <label for="email_button">Checky check</label><br>
-                        <input type="checkbox" id="radio0" required>
-                        <input type="checkbox" id="radio1" required>
-                        <input type="checkbox" id="radio1" required>
+                        <input type="checkbox" class="radio0" required>
+                        <input type="checkbox" class="radio1" required>
+                        <input type="checkbox" class="radio1" required>
                       </div>
                       <div>
                         <select>
@@ -75,19 +63,19 @@
                             <option>3</option>
                             <option>4</option>
                         </select>
-                        <select id="mleft">
+                        <select class="mleft">
                             <option>1</option>
                             <option>2</option>
                             <option>3</option>
                             <option>4</option>
                         </select>
-                        <select id="mleft">
+                        <select class="mleft">
                             <option>1</option>
                             <option>2</option>
                             <option>3</option>
                             <option>4</option>
                         </select>
-                        <select id="mleft">
+                        <select class="mleft">
                             <option>1</option>
                             <option>2</option>
                             <option>3</option>
@@ -95,7 +83,7 @@
                         </select>
                       </div>
                     <div>
-                      <label for="text_button">Feedback</label><br>
+                      <label for="text_button">Texty text ruta</label><br>
                       <textarea rows="2" id="text_button"></textarea>
                     </div>
                     <div>
